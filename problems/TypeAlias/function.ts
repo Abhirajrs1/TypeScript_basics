@@ -1,11 +1,13 @@
-type Pro={
-    a:number,
-    b:number
+// Type alias with function
+
+type User={
+    name:string,
+    age:number,
+    isAvailable:boolean
 }
 
-function sum(r:Pro){
-    return r.a+r.b
-}
+function greek(user:User){
+    return `The name is ${user.name} and age is ${user.age}`}
 
-console.log(sum({a:25,b:10}))
+console.log(greek({name:"Abhiraj",age:23,isAvailable:true}));
 

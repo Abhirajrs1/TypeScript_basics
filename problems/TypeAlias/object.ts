@@ -1,3 +1,4 @@
+// Type with explicit create an obj
 
 type Person={
     name:string,
